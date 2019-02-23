@@ -15,4 +15,8 @@
     .links-wrapper{
         display:block;
     }
+
+    .hamburger-menu-wrapper{
+        display:none;
+    }
 }

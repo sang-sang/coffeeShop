@@ -72,9 +72,9 @@ h2{
 /* Header navigation styling */
 header{
     display: flex;
-    max-height: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    max-height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .logo-wrapper{
@@ -88,4 +88,17 @@ header{
 
 .links-wrapper{
     display:none;
+}
+
+.hamburger-menu-wrapper {
+    position: absolute;
+    left: 10px;
+}
+
+.hamburger-menu-wrapper div{
+    height: 2px;
+    width: 22px;
+    background-color: brown;
+    margin-top: 6px;
+    margin-bottom: 4px;
 }
