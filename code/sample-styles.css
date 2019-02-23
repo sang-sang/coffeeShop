@@ -1,0 +1,20 @@
+ .my-text {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.my-text .bold-text {
+    font-weight: 900;
+}
+
+.greenText {
+    color: rgba(28, 46, 2, 0.658)
+}
+
+p {
+    color: red;
+    font-family: Arial;
+}

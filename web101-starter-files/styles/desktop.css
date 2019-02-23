@@ -1,0 +1,11 @@
+/* The following styles will only apply to desktop viewports larger the 768px wide*/
+
+@media (min-width: 768px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .hero{
+        height: 650px;
+    }
+}
