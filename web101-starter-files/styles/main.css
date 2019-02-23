@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "Inconsolata", sans-serif;
+    font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
 }
 
@@ -38,6 +38,34 @@ h2{
     font-size: 24px;
     font-weight: bold;
 }
+
+.divider{
+    width: 200px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkgray;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+
+    /* margin: 30px auto 30px auto; */
+
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deco-line{
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background-color: gray;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -101,4 +129,54 @@ header{
     background-color: brown;
     margin-top: 6px;
     margin-bottom: 4px;
+}
+
+
+/* About us section on the homepage */
+
+.content{
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.our-story-link{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.about-text{
+    color: slategray;
+
+}
+
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showcase-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    height: 400px;
+    box-shadow: 2px 4px rgba(25,25,25,0.25);
+}
+
+.showcase-item:nth-child(1){
+    background-image: url('../images/photoshoot3.jpg');
+    background-position: top;
+}
+.showcase-item:nth-child(2){
+    background-image: url('../images/photoshoot2.jpg');
+    background-position: center;
+}
+.showcase-item:nth-child(3){
+    background-image: url('../images/photoshoot1.jpg');
+    background-position: left;
 }
