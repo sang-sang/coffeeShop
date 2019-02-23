@@ -14,6 +14,14 @@ a:hover{
     color: saddlebrown;
 }
 
+header .links-wrapper a{
+    margin-left: 20px;
+}
+
+header .links-wrapper a:first-child{
+    margin-left: 0px;
+}
+
 h1{
     color: white;
     font-size: 48px;
