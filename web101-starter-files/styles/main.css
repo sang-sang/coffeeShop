@@ -19,6 +19,9 @@ header .links-wrapper a{
 }
 
 header .links-wrapper a:first-child{
+    height:40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin-left: 0px;
 }
 
@@ -75,6 +78,7 @@ header{
 }
 
 .logo-wrapper{
+    text-align: center;
     flex-grow: 2;
 }
 
@@ -83,4 +87,5 @@ header{
 }
 
 .links-wrapper{
+    display:none;
 }

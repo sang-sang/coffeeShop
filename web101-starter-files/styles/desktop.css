@@ -8,4 +8,11 @@
     .hero{
         height: 650px;
     }
+
+    .logo-wrapper{
+        text-align: left;
+    }
+    .links-wrapper{
+        display:block;
+    }
 }
