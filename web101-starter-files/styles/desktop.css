@@ -28,4 +28,24 @@
     width: 300px;
     height: 400px;
     }
+
+    .jobs-intro{
+    flex-direction: row;
+    max-width: 900px;
+    }
+
+    
+    .job-photos-wrapper{
+        width: 350px;
+    }
+
+    .job-intro-link{
+        width: 400px;
+    }
+    
+    .job-intro-link button{
+    flex-direction: row;
+
+        width: 150px;
+    }
 }
