@@ -35,17 +35,42 @@
     }
 
     
-    .job-photos-wrapper{
-        width: 350px;
-    }
-
+    
     .job-intro-link{
         width: 400px;
     }
     
     .job-intro-link button{
-    flex-direction: row;
-
+        flex-direction: row;
         width: 150px;
+    }
+    
+    .job-photos-wrapper{
+        display: grid;
+        grid-template-columns: 300px 150px;
+        grid-template-rows: 50% 50%;
+        max-width: 450px;
+        height: 260px;
+    }
+    
+    .job-photo img{
+        max-height: 260px;
+    }
+
+    .job-photo:not(:first-child){
+        display: block;
+    }
+
+    .job-photo:not(:first-child) img{
+        max-height: 125px;
+    }
+
+    .job-photo:first-child{
+        padding-right: 10px;
+        grid-row: span 2;
+    }
+
+    .job-photo:last-child{
+        align-self: end;
     }
 }

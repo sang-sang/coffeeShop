@@ -196,13 +196,6 @@ header{
     flex-direction: column;
 }
 
-.job-photos-wrapper{
-    background-color: green;
-    width: 96%;
-    height: 260px;
-    margin: auto;
-}
-
 .job-intro-link{
     display: flex;
     flex-direction: column;
@@ -212,6 +205,10 @@ header{
 
 .job-intro-link p{
     width: 94%;
+}
+
+.job-intro-link h2{
+    color: brown;
 }
 
 .job-intro-link button{
@@ -229,3 +226,16 @@ header{
     cursor: pointer;
 }
 
+.job-photos-wrapper{
+    display: block;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.job-photo img{
+    width: 100%;
+}
+
+.job-photo:not(:first-child){
+    display: none;
+}
