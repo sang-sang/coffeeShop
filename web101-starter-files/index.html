@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sunny's Coffee Shop</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> -->
     <link href="styles/main.css" rel="stylesheet">
     <link href="styles/desktop.css" rel="stylesheet">
 </head>
@@ -101,6 +100,23 @@
                 </div>
             </div>
 
+
+            <div class="newsletter-wrapper">
+                <div class="divider">
+                    <div class="deco-line"></div>
+                    stay in touch
+                    <div class="deco-line"></div>
+                </div>
+                <h2>Coupons and Updates</h2>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="youremail@here.now">
+                    <input type="submit" value="submit">
+                </form>
+                <div class="newsletter-thank-you hide">
+                    <h3>Thank you for subscribing!</h3>
+                </div>
+            </div>
+
             <div style="margin-bottom: 200px"></div>
         </main>
     </div>
@@ -108,5 +124,13 @@
 
     </footer>
 </body>
+<script>
+    document.querySelector('.newsletter-form input[type="submit"]')
+        .addEventListener('click', function (event) {
+            document.querySelector('.newsletter-form').className = "hide";
+            document.querySelector('.newsletter-thank-you').className = "newsletter-thank-you";
+            event.preventDefault();
+        });
+</script>
 
 </html>

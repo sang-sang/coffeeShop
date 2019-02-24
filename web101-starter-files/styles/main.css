@@ -4,6 +4,10 @@ body{
     overflow-x: hidden;
 }
 
+.hide{
+    display: none;
+}
+
 a:link{
     color: brown;
     font-size: 16px;
@@ -34,9 +38,13 @@ h1{
 }
 
 h2{
-    color: #eeeeee;
+    color: brown;
     font-size: 24px;
     font-weight: bold;
+}
+
+.hero h2{
+    color: #eeeeee;
 }
 
 .divider{
@@ -238,4 +246,79 @@ header{
 
 .job-photo:not(:first-child){
     display: none;
+}
+
+/* Newsletter section layout */
+
+.newsletter-wrapper{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1d1f2e;
+    margin-top: 40px;
+}
+
+.newsletter-wrapper .divider{
+    color: #eeeeee;
+    margin: 0 auto;
+}
+
+.newsletter-wrapper h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 46px;
+}
+
+.newsletter-form{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.newsletter-form input[type="text"]{
+    max-width: 350px;
+    width: 400px;
+    height: 55px;
+    outline: 0;
+    padding: 18px 24px;
+    border: 1px solid #2f303e;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: border-color 400ms;
+}
+.newsletter-form input[type="text"]:focus{
+    border-color: #ffffff;
+}
+
+.newsletter-form input[type="submit"]{
+    width: 150px;
+    padding: 18px 24px;
+    background: #ffffff;
+    color: #2f303e;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0 none;
+}
+
+.newsletter-thank-you{
+    margin:0 auto;
+    text-align: center;
+}
+
+.newsletter-thank-you h3{
+    
 }
